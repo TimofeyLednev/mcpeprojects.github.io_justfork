@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Minecraft PE Vita",
+		"repo": "https://github.com/minecraftpe-vita/minecraftpe-vita/",
+		"desc": "Port of MCPE Alpha 0.6.1 to PSVita."
+	},
+	{
+		"name": "Minecraft PE NX",
+		"repo": "https://github.com/efimandreev0/minecraftpe-nx/",
+		"desc": "Port of MCPE Alpha 0.6.1 to Nintendo Switch."
+	},
+	{
+		"name": "Minecraft PE Symbian",
+		"repo": "https://github.com/minecraftpe-vita/minecraftpe-vita/tree/symbian",
+		"desc": "(WIP) Port of MCPE Alpha 0.6.1 to Symbian (S^3)"
+	},
+	{
+		"name": "Minecraft PE Source Code",
+		"repo": "https://github.com/deepfriedwaffles/minecraft-pe-source-code/",
+		"desc": "Developing for modern iDevices should also work on other platforms too!"
+	},	
+	{
+		"name": "Minecraft PE 0.6.1",
+		"repo": "https://gitea.sffempire.ru/Kolyah35/minecraft-pe-0.6.1/",
+		"desc": "This project aims to preserve and improve this early version of Minecraft PE."
+	}
+]

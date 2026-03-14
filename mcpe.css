@@ -1,0 +1,63 @@
+@font-face {
+    font-family: minecraft;
+    src: url("res/minecraft.ttf");
+}
+
+body {
+	background-image: url("res/bg.png");
+	background-repeat: repeat;
+	color: white;
+	font-family: minecraft;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#mcpe_pi_header {
+	text-align: center;
+	font-size: 150%;
+}
+
+#mcpe_project_index {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 70em;	
+}
+.mcpe_project:hover {
+	background-image: url("res/entry_selected.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.mcpe_project {
+	background-image: url("res/entry.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	white-space: nowrap;
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 2em;
+	
+	margin: 2em;
+	text-align: center;
+
+	/* nearest neighbour rendering.. */
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.mcpe_project_name {
+	font-size: 160%;
+}
+ 
+.mcpe_project_desc {
+	font-size: 120%;
+}
