@@ -1,2 +1,2 @@
 # mcpeprojects.github.io
-list of projects for mcpe
+list of projects using minecraft pocket edition stuffs
